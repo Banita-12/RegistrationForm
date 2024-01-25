@@ -1,0 +1,18 @@
+{% extends 'dummy.html' %}
+
+{% block title %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block body_block %}
+    <center>
+
+        
+        {{uo.username}}<br>
+        {{uo.email}}<br>
+        {{po.address}}<br>
+
+        <img src="{{po.profile_pic.url}}" alt="" srcset="">
+   
+    </center>
+{% endblock %}
